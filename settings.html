@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="settings-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -36,7 +36,7 @@
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen setting-screen">
       <ul class="settings-list">
         <li class="settings__setting">
           <div class="settings__setting-column">
@@ -58,6 +58,57 @@
             <span>Version</span>
           </div>
           <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-lock"></i>
+            <span>Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-bell"></i>
+            <span>Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-user"></i
+            <span>Friends</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-comment"></i>
+            <span>Chats</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-sun"></i>
+            <span>Display</span>
+          </div>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-paint-roller"></i>
+            <span>Themes</span>
+          </div>
+          <div class="settings__setting-column">Default theme</div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-phone-alt"></i>
+            <span>Call</span>
+          </div>
+          <div class="settings__setting-column"></div>
         </li>
       </ul>
     </main>
@@ -82,7 +133,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
-            <span class="nav__newer"></span>
+            <span class="nav__alarm badge-alarm"></span>
             <i class="fas fa-ellipsis-h fa-2x"></i
           ></a>
         </li>

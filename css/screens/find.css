@@ -12,7 +12,7 @@
 
 .recommended-friends span {
   display: block;
-  margin: 70px 0px;
+  margin: 100px 0px;
   text-align: center;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
@@ -37,10 +37,10 @@
 
 .open-post__title {
   font-weight: 600;
+  margin-bottom: 7px;
 }
 
 .open-post__hashtags {
-  text-transform: uppercase;
   opacity: 0.6;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .open-post__members-status {
-  color: #ffb0e0;
+  color: tomato;
 }
 .open-post__photo {
   position: relative;
@@ -115,4 +115,8 @@
 .open-post__heart-count:hover i {
   will-change: transform;
   animation: heartBeat 1s linear infinite;
+}
+
+.find-screen {
+  height: 100vh;
 }

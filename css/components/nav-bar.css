@@ -12,22 +12,8 @@
   justify-content: space-between;
 }
 .nav__link {
-  color: #2e363e;
+  color: var(--bright-blue);
   position: relative;
-}
-
-.nav__newer {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
 }
 
 @keyframes notificationAnimation {
@@ -48,7 +34,11 @@
   bottom: 15px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
-
+.nav__alarm {
+  position: absolute;
+  left: 35px;
+  bottom: 30px;
+}
 @keyframes appearBtnAnimation {
   from {
     opacity: 0;

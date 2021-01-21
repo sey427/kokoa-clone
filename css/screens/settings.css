@@ -16,3 +16,26 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+.settings-list:last-child {
+  margin-top: 40px;
+}
+#settings-screen {
+  height: 120vh;
+}
+#settings-screen .alt-header,
+#settings-screen .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+#settings-screen .status-bar {
+  z-index: 2;
+}
+#settings-screen .alt-header {
+  top: 10px;
+  z-index: 1;
+}
+.setting-screen {
+  margin-top: 110px;
+}
